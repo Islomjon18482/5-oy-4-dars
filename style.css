@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    margin: 100px auto;
+}
+input, textarea, button, select{
+    padding: 10px;
+}
+textarea{
+    resize: none;
+}
+table{
+    text-align: center;
+    width: 700px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
